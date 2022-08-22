@@ -6,7 +6,7 @@ import { Titulo } from './Components/Titulo'
 
 export const GifApp = () => {
 
-  const [categorias, setCategorias] = useState(['GOKU'])
+  const [categorias, setCategorias] = useState(['ONE PUNCH'])
 
   const onNewCategory = ( categoria ) => {
 

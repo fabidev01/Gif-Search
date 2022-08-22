@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
-
+@import url(https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css);
 
 *{
   margin: 0;
@@ -14,6 +14,9 @@ body{
 img{
   width: 100%;
   border-radius: 10px;
+}
+h1{
+  font-size: 2rem;
 }
 /* span */
 #G{
@@ -46,6 +49,7 @@ img{
   flex-direction: row;
   gap: 1.5rem;
   flex-wrap: wrap;
+  
 }
 
 .container span{
@@ -138,6 +142,11 @@ img{
   flex-direction: column;
   justify-content: center;
   gap: 10px;
+}
+
+.gifCard:hover{
+  transform: scale(1.1);
+  transition: 0.2s;  
 }
 
 .title{

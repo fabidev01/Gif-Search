@@ -19,6 +19,7 @@ export const Input = ({ onNewCategory }) => {
     <form onSubmit={ onInputSubmit }>
       <div className="form-control">
         <input 
+          className="animate__animated animate__slideInLeft"
           required
           type="text" 
           onChange={ onInputChange }
