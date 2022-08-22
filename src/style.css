@@ -146,7 +146,7 @@ h1{
 
 .gifCard:hover{
   transform: scale(1.1);
-  transition: 0.2s;  
+  transition: 1s;  
 }
 
 .title{
